@@ -31,7 +31,7 @@ p{
 }
 
 .wrapper{
-  max-width: 600px;
+  max-width: 1024px;
   width:100%;
   margin: 0 auto;
   border:10px solid #B3BCCC;
@@ -42,8 +42,6 @@ p{
 {
 	list-style:none;
 	float:left;
-	padding:10px 0px;
-	width:100%;
 	border:10px solid #B3BCCC; 
 }
 
@@ -75,11 +73,6 @@ p{
 
 @media all and (min-width:600px) and (max-width:1024px)
 {
-	.wrapper
-	{
-		max-width:1024px;
-	}
-	
 	.wrapper ul li
 	{
 		width:50%;
@@ -88,11 +81,6 @@ p{
 
 @media all and (min-width:1025px)
 {
-	.wrapper
-	{
-		max-width:1024px;
-	}
-	
 	.wrapper ul li
 	{
 		width:33%;
